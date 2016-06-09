@@ -5,6 +5,7 @@ var express = require("express");
 var app = express();
 var fs = require('fs')
 var gm = require('gm');
+var formidable = require("formidable");
 
 app.set("view engine", "ejs");
 
