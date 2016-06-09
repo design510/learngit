@@ -38,3 +38,4 @@ app.get("/list",function(req,res,next{
 
 
 app.listen(3002,"127.0.0.1");
+hello world
