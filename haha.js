@@ -32,7 +32,9 @@ app.get("/address",function(req,res,next){
     res.send("haha");
 });
 
+app.get("/list",function(req,res,next{
+    var username = req.query.username;
+});
+
 
 app.listen(3002,"127.0.0.1");
-
-
