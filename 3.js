@@ -6,6 +6,7 @@ var app = express();
 var fs = require('fs')
 var gm = require('gm');
 var formidable = require("formidable");
+var http = require("http");
 
 app.set("view engine", "ejs");
 
