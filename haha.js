@@ -32,8 +32,6 @@ app.get("/address",function(req,res,next){
     res.send("haha");
 });
 
-hello nodejs
-hello world
 
 
 
