@@ -32,7 +32,9 @@ app.get("/address",function(req,res,next){
     res.send("haha");
 });
 //apple
-
+app.get("/haha",function(req,res,next){
+    res.send("haha");
+});
 
 
 app.listen(3002,"127.0.0.1");
